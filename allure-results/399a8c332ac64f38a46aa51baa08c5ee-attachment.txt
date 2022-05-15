@@ -1,0 +1,4 @@
+The person name is
+"Luke Skywalker"
+Homeworld planet of Luke Skywalker name is
+"Tatooine"

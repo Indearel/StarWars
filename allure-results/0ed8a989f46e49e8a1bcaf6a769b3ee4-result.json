@@ -1,0 +1,98 @@
+{
+  "uuid": "288048b0-0a6f-42d0-a8b2-8f0036e346f3-tr-0-1002",
+  "historyId": "StarWars.LukeSkywalker.LukeSkywalkerHomeworldFirefox",
+  "fullName": "StarWars.LukeSkywalker.LukeSkywalkerHomeworldFirefox",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-PCFUL9P"
+    },
+    {
+      "name": "package",
+      "value": "StarWars"
+    },
+    {
+      "name": "testMethod",
+      "value": "LukeSkywalkerHomeworldFirefox"
+    },
+    {
+      "name": "testClass",
+      "value": "LukeSkywalker"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Sergiusz"
+    },
+    {
+      "name": "tag",
+      "value": "Luke Skywalker"
+    },
+    {
+      "name": "tag",
+      "value": "Star Wars API"
+    },
+    {
+      "name": "tag",
+      "value": "Homeworld"
+    },
+    {
+      "name": "tag",
+      "value": "Firefox"
+    }
+  ],
+  "links": [
+    {
+      "name": "0002",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/0002",
+      "type": "issue"
+    }
+  ],
+  "name": "LukeSkywalkerHomePlanetMozillaFirefox",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:51957/session timed out after 60 seconds.\r\n  ----> System.Threading.Tasks.TaskCanceledException : Tehtävä peruutettiin.",
+    "trace": "   kohteessa OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   kohteessa OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   kohteessa OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   kohteessa OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   kohteessa OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   kohteessa OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxDriverService service, FirefoxOptions options, TimeSpan commandTimeout)\r\n   kohteessa OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxOptions options)\r\n   kohteessa OpenQA.Selenium.Firefox.FirefoxDriver..ctor()\r\n   kohteessa StarWars.LukeSkywalker.LukeSkywalkerHomeworldFirefox() tiedostossa C:\\Users\\Indigo\\source\\repos\\StarWars\\Tests\\LukeSkywalker.cs:rivillä 66\r\n--TaskCanceledException\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   kohteessa OpenQA.Selenium.Remote.HttpCommandExecutor.<MakeHttpRequest>d__35.MoveNext()\r\n--- Pinon jäljityksen loppu aiemmasta sijainnista, jossa palautettiin poikkeus ---\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   kohteessa OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)"
+  },
+  "stage": "finished",
+  "description": "Is Luke Skywalker is from Tatooine - Mozilla Firefox\n",
+  "steps": [
+    {
+      "name": "LukeSkywalkerHomeworldFirefox",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:51957/session timed out after 60 seconds.\r\n  ----> System.Threading.Tasks.TaskCanceledException : Tehtävä peruutettiin.",
+        "trace": "   kohteessa OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   kohteessa OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   kohteessa OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   kohteessa OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   kohteessa OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   kohteessa OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxDriverService service, FirefoxOptions options, TimeSpan commandTimeout)\r\n   kohteessa OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxOptions options)\r\n   kohteessa OpenQA.Selenium.Firefox.FirefoxDriver..ctor()\r\n   kohteessa StarWars.LukeSkywalker.LukeSkywalkerHomeworldFirefox() tiedostossa C:\\Users\\Indigo\\source\\repos\\StarWars\\Tests\\LukeSkywalker.cs:rivillä 66\r\n--TaskCanceledException\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   kohteessa OpenQA.Selenium.Remote.HttpCommandExecutor.<MakeHttpRequest>d__35.MoveNext()\r\n--- Pinon jäljityksen loppu aiemmasta sijainnista, jossa palautettiin poikkeus ---\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   kohteessa System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   kohteessa OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a14538b187b34741b9ff9a37fa8a816e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652637716227,
+      "stop": 1652637778746
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652637716226,
+  "stop": 1652637778749
+}

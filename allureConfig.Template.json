@@ -1,0 +1,9 @@
+﻿{
+  "allure": {
+    "directory": "C:\\Users\\Indigo\\source\\repos\\StarWars\\allure-results",
+    "links": [
+      "https://example.org/{issue}",
+      "https://example.org/{tms}"
+    ]
+  }
+}

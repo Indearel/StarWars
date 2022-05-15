@@ -1,0 +1,12 @@
+{
+  "uuid": "68a8bc5f-efcd-4f6d-bfe2-0f71103d0b82-tc-0-1000",
+  "name": "StarWars.LukeSkywalker.LukeSkywalkerHomeworldChrome",
+  "children": [
+    "66172517-810c-4443-b111-261e520660be-tr-0-1001"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1652637189783,
+  "stop": 1652637212694
+}
