@@ -1,0 +1,95 @@
+{
+  "uuid": "b64c992e-f1ec-4b0b-82fc-1761fbd825ab-tr-0-1001",
+  "historyId": "StarWars.LukeSkywalker.LukeSkywalkerHomeworldChrome",
+  "fullName": "StarWars.LukeSkywalker.LukeSkywalkerHomeworldChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-PCFUL9P"
+    },
+    {
+      "name": "package",
+      "value": "StarWars"
+    },
+    {
+      "name": "testMethod",
+      "value": "LukeSkywalkerHomeworldChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "LukeSkywalker"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Sergiusz"
+    },
+    {
+      "name": "tag",
+      "value": "Luke Skywalker"
+    },
+    {
+      "name": "tag",
+      "value": "Star Wars API"
+    },
+    {
+      "name": "tag",
+      "value": "Homeworld"
+    },
+    {
+      "name": "tag",
+      "value": "Chrome"
+    }
+  ],
+  "links": [
+    {
+      "name": "0001",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/0001",
+      "type": "issue"
+    }
+  ],
+  "name": "LukeSkywalkerHomePlanetGoogleChrome",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LukeSkywalkerHomeworldChrome"
+  },
+  "stage": "finished",
+  "description": "Is Luke Skywalker is from Tatooine - Google Chrome\n",
+  "steps": [
+    {
+      "name": "LukeSkywalkerHomeworldChrome",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2f0f9b3a7589441e884969e13b77f011-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652702454138,
+      "stop": 1652702480896
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652702454137,
+  "stop": 1652702480899
+}

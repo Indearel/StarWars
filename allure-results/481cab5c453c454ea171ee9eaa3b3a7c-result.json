@@ -1,0 +1,95 @@
+{
+  "uuid": "3f01dd7b-b1db-4681-985b-516f6b0c68e9-tr-0-1002",
+  "historyId": "StarWars.LukeSkywalker.LukeSkywalkerHomeworldFirefox",
+  "fullName": "StarWars.LukeSkywalker.LukeSkywalkerHomeworldFirefox",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-PCFUL9P"
+    },
+    {
+      "name": "package",
+      "value": "StarWars"
+    },
+    {
+      "name": "testMethod",
+      "value": "LukeSkywalkerHomeworldFirefox"
+    },
+    {
+      "name": "testClass",
+      "value": "LukeSkywalker"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Sergiusz"
+    },
+    {
+      "name": "tag",
+      "value": "Luke Skywalker"
+    },
+    {
+      "name": "tag",
+      "value": "Star Wars API"
+    },
+    {
+      "name": "tag",
+      "value": "Homeworld"
+    },
+    {
+      "name": "tag",
+      "value": "Firefox"
+    }
+  ],
+  "links": [
+    {
+      "name": "0002",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/0002",
+      "type": "issue"
+    }
+  ],
+  "name": "LukeSkywalkerHomePlanetMozillaFirefox",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LukeSkywalkerHomeworldFirefox"
+  },
+  "stage": "finished",
+  "description": "Is Luke Skywalker is from Tatooine - Mozilla Firefox\n",
+  "steps": [
+    {
+      "name": "LukeSkywalkerHomeworldFirefox",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "39d99ef3a0e24d6687764e50fc8b1e4a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652702480995,
+      "stop": 1652702505623
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652702480995,
+  "stop": 1652702505623
+}
